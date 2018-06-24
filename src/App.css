@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+    #storm1, #storm2, #Blue, #Red{
+        display:none;  
+  }
+#main{
+    width:80%;
+  }
+#Mid-card{
+    border:none;
+    width:70%;
+  }
+}
+

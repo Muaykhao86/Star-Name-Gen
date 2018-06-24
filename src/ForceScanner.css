@@ -1,0 +1,43 @@
+
+h1{
+    text-shadow: 0 2px 0 black; 
+}
+#ForceScanner{
+    box-shadow: 0px 0px 70px white;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    color:orange;
+    box-shadow: 0px 0px 70px white;
+}
+#Mid-card{
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+#Blue{
+    animation: pulse 5s infinite ease-in;
+}
+@keyframes pulse {
+    70% {
+      background-color: rgba(0, 204, 255, 0);
+    }
+    20% {
+      background-color: rgba(4, 199, 248, 0.70);
+    }
+}
+#Red{
+    animation: pulse2 5s infinite ease-in;
+}
+@keyframes pulse2 {
+    70% {
+      background-color: rgba(255, 0, 0, 0);
+    }
+    20% {
+      background-color: rgb(255, 13, 70);
+    }
+}
